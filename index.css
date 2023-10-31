@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.form{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    padding-left: 20px;
+    margin-top: 300px;
+    margin-left: 600px;
+}
+
+.name{
+    width: 250px;
+    border: none;
+    background-color: white;
+    border: 2px solid grey;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 31.25px;
+    height: 35px;
+    border: none;
+    outline: none;
+    
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.44);
+}
+
+.password{
+    width: 250px;
+    border: none;
+    border: 2px solid grey;
+    padding: 5px;
+    border-radius: 31.25px;
+    background-color: white;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+
+.button{
+    width: 250px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 31.25px;
+    margin-top: 40px;
+    background-color: transparent;
+    color: white;
+}
+
+.image1{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 3px;
+}
+.image2{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 7px;
+}
